@@ -14,7 +14,9 @@ public class movie {
         this.movieDirector = movieDirector;
         this.moviePostYear = moviePostYear;
     }
-   
+    public  movie(int movieId){
+        this.movieId=movieId;
+    }
     public int getMovieId() {
         return movieId;
     }
