@@ -1,0 +1,182 @@
+@font-face {
+	font-family: 'journal-webfont';
+	src: url(../fonts/journal-webfont.ttf);
+}
+
+
+#content {
+	width: 100%;
+	height: 2200px;
+	background: url(../img/background/1.jpg) center top no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	-moz-background-size: cover;
+	-webkit-background-size: cover;
+	-o-background-size: cover;
+}
+
+#header {
+	width: 1400px;
+	height: 250px;
+	/* background-color: #38b7ff; */
+	border-top: 1px solid;
+	margin: 0 auto 0;
+}
+
+#header #header-content {
+	width: 1300px;
+	height: 200px;
+	background: rgba(225, 225, 225, 0.7);
+	margin: 0 auto 0;
+	margin-top: 25px;
+	border-radius: 30px;
+	display: block;
+	/* overflow: hidden; */
+}
+
+#header #header-content #logo img {
+	height: 200px;
+	width: 750px;
+	margin-left: 0px;
+	float: left;
+}
+
+#header #header-content #nav {
+	height: 60px;
+	width: 550px;
+	display: inline-block;
+	float: right;
+	margin-top: 95px;
+	/* background-color: #FFFFFF; */
+}
+
+#header #header-content #nav #choose a {
+	display: block;
+	background-color: skyblue;
+	float: right;
+	border-radius: 15px;
+	border: 3px solid white;
+	color: darkblue;
+	font-size: 30px;
+	height: 40px;
+	width: 150px;
+	text-align: center;
+	margin-right: 20px;
+	line-height: 40px;
+	margin-top: 35px;
+	font-family: "黑体";
+}
+
+
+#header #header-content #nav #choose a:hover {
+	color: orange;
+	height: 45px;
+	line-height: 45px;
+	width: 170px;
+	text-align: center;
+	background-color: #a155f7;
+	border-color: yellow;
+	margin-bottom: 5px;
+	font-size: 35px;
+	font-family: "黑体";
+}
+
+#content #section {
+	height: 1800px;
+	width: 1400px;
+	margin: 0 auto 0;
+	/* background-color: white; */
+	position: relative;
+}
+
+#content #section #nav {
+	height: 240px;
+	width: 250px;
+	background-color: #00AAFF;
+	float: left;
+	position: fixed;
+	margin-top: 30px;
+	margin-left: 30px;
+}
+
+#content #section #nav a {
+	display: block;
+	border: 2px yellow solid;
+	color: darkblue;
+	background-color: mediumpurple;
+	font-family: "华文琥珀";
+	font-size: 50px;
+	height: 70px;
+	text-align: center;
+	padding-top: 20px;
+	-webkit-text-stroke: yellow 0.5px;
+}
+
+#content #section #true {
+	height: 1400px;
+	width: 1070px;
+	/* background-color: #75ABE1; */
+	float: right;
+	margin-top: 50px;
+	margin-right: 50px;
+	overflow: hidden;
+}
+
+#content #section #true .aa {
+	height: 1690px;
+	width: 1050px;
+	background-color: rgba(62, 109, 218, 0.8);
+	margin: 10px 10px 10px 10px;
+	position: relative;
+	border-top: 1px #4169E1 solid;
+}
+
+#content #section #true .bb {
+	height: 1690px;
+	width: 1050px;
+	position: relative;
+	/* background: url(../img/infer/9.png); */
+	/* opacity: 0.7; */
+	background-color: rgba(191, 222, 242, 0.8);
+	margin: 10px 10px 10px 10px;
+	border-top: 1px #4169E1 solid;
+}
+
+#content #section #true .cc {
+	height: 1690px;
+	width: 1050px;
+	position: relative;
+	overflow: hidden;
+	background: url(../img/background/3.jpg);
+	background-size: 65.625rem 1690px;
+	margin: 10px 10px 10px 10px;
+	border-top: 1px #4169E1 solid;
+}
+
+#content #section #nav a:hover {
+	cursor: pointer;
+	background-color: skyblue;
+	color: whitesmoke;
+	-webkit-text-stroke: black 0.5px;
+}
+
+#content #section #nav a:active {
+	background-color: royalblue;
+}
+
+#commentCheck #title1{
+	height: 200px;
+	width: 600px;
+	background-color: #9370DB;
+	margin: 20px auto 40px;
+}
+
+#commentCheck #comment{
+	height: 1000px;
+	width: 1000px;
+	margin: 0 auto 0;
+	background-color: #FFA500;
+}
+
+
+

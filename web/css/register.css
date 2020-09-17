@@ -1,0 +1,197 @@
+@font-face {
+	font-family: 'dream';
+	src: url(../fonts/dream.ttf);
+}
+
+#scene {
+	width: 100%;
+	height: 1500px;
+	background: url(../img/background/1.jpg) center top no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	-moz-background-size: cover;
+	-webkit-background-size: cover;
+	-o-background-size: cover;
+}
+
+#header {
+	width: 1400px;
+	height: 250px;
+	/* background-color: #38b7ff; */
+	border-top: 1px solid;
+	margin: 0 auto 0;
+}
+
+#header #header-content {
+	width: 1300px;
+	height: 200px;
+	background: rgba(225, 225, 225, 0.7);
+	margin: 0 auto 0;
+	margin-top: 25px;
+	border-radius: 30px;
+	display: block;
+	/* overflow: hidden; */
+}
+
+#header #header-content #logo img {
+	height: 200px;
+	width: 750px;
+	margin-left: 0px;
+	float: left;
+}
+
+#header #header-content #nav {
+	height: 60px;
+	width: 550px;
+	display: inline-block;
+	float: right;
+	margin-top: 95px;
+	/* background-color: #FFFFFF; */
+}
+
+#header #header-content #nav #choose a {
+	display: block;
+	background-color: skyblue;
+	float: right;
+	border-radius: 15px;
+	border: 3px solid white;
+	color: darkblue;
+	font-size: 30px;
+	height: 40px;
+	width: 150px;
+	text-align: center;
+	margin-right: 20px;
+	line-height: 40px;
+	margin-top: 35px;
+	font-family: "黑体";
+}
+
+
+#header #header-content #nav #choose a:hover {
+	color: orange;
+	height: 45px;
+	line-height: 45px;
+	width: 170px;
+	text-align: center;
+	background-color: #a155f7;
+	border-color: yellow;
+	margin-bottom: 5px;
+	font-size: 35px;
+	font-family: "黑体";
+}
+
+#register {
+	width: 1400px;
+	height: 1100px;
+	margin: 0 auto 0;
+	margin-top: 80px;
+}
+
+#register #register-content {
+	width: 450px;
+	height: 1000px;
+	margin: 0 auto 0;
+	background: rgba(225, 225, 225, 0.8);
+	border-radius: 50px;
+}
+
+#register #register-content h1 {
+	height: 20px;
+	font-size: 70px;
+	width: 450px;
+	text-align: center;
+	font-family: dream;
+	padding-top: 20px;
+}
+
+#register #register-content form {
+	width: 350px;
+	height: 690px;
+	/* background-color: antiquewhite;   */
+	margin-top: 80px;
+	margin-left: 50px;
+}
+
+#register #register-content form label {
+	font-size: 30px;
+	font-family: "楷体";
+	font-weight: 600;
+	margin-top: 10px;
+	display: block;
+	/* background-color: black; */
+}
+
+#register #register-content #gender {
+	height: 50px;
+	width: 300px;
+	/* background-color: #A155F7; */
+	margin-left: 50px;
+}
+
+#register #register-content form #userId,
+#password,
+#comfirm,
+#username,
+#hobby {
+
+	font-size: 30px;
+	width: 350px;
+	font-family: "楷体";
+	margin-top: 10px;
+}
+
+#register #register-content #gender #sex {
+	width: 30px;
+	font-size: 30px;
+	display: inline-block;
+	/* background-color: #9370DB; */
+	font-family: "楷体";
+	font-weight: 600;
+	margin-left: 20px;
+	/* padding-left: 50px; */
+
+}
+
+#register #register-content #btn {
+	display: block;
+	font-size: 35px;
+	font-family: "楷体";
+	width: 150px;
+	color: blue;
+	text-align: center;
+	position: relative;
+	background-color: skyblue;
+	margin: 15px auto 0;
+	font-weight: 600;
+	float: left;
+	margin-left: 20px;
+}
+
+#register #register-content #btn a:hover {
+	display: block;
+	height: 35px;
+	width: 150px;
+	color: yellow;
+	background-color: royalblue;
+}
+
+#register #register-content #bottom a {
+	position: relative;
+	height: 250px;
+	width: 450px;
+	bottom: 0px;
+	/* background-color: white; */
+}
+
+#register #register-content #agree {
+	font-size: 20px;
+	margin-top: 10px;
+	font-family: "微软雅黑";
+	margin-bottom: 10px;
+}
+
+#register #register-content #bottom img {
+	height: 200px;
+	width: 450px;
+	bottom: 200px;
+}

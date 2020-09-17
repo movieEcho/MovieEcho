@@ -1,0 +1,35 @@
+/* 公共样式 */
+* {
+	margin: 0;
+	padding: 0;
+}
+
+li {
+	list-style: none;
+}
+
+a {
+	text-decoration: none;
+}
+
+i,
+em {
+	font-style: none;
+}
+
+b,
+strong {
+	font-weight: normal;
+}
+
+
+/* 高度坍塌处理 */
+.clearfix:after,
+.clearfix::before {
+	content: "";
+	display: block;
+	clear: both;
+	overflow: hidden;
+	visibility: hidden;
+	height: 0px;
+}

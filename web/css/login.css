@@ -1,0 +1,176 @@
+@font-face {
+	font-family: 'dream';
+	src: url(../fonts/dream.ttf);
+}
+
+#scene {
+	width: 100%;
+	height: 1300px;
+	background: url(../img/background/1.jpg) center top no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	-moz-background-size: cover;
+	-webkit-background-size: cover;
+	-o-background-size: cover;
+}
+
+#header {
+	width: 1400px;
+	height: 250px;
+	/* background-color: #38b7ff; */
+	border-top: 1px solid;
+	margin: 0 auto 0;
+}
+
+#header #header-content {
+	width: 1300px;
+	height: 200px;
+	background: rgba(225, 225, 225, 0.7);
+	margin: 0 auto 0;
+	margin-top: 25px;
+	border-radius: 30px;
+	display: block;
+	/* overflow: hidden; */
+}
+
+#header #header-content #logo img {
+	height: 200px;
+	width: 750px;
+	margin-left: 0px;
+	float: left;
+}
+
+#header #header-content #nav {
+	height: 60px;
+	width: 550px;
+	display: inline-block;
+	float: right;
+	margin-top: 95px;
+	/* background-color: #FFFFFF; */
+}
+
+#header #header-content #nav #choose a {
+	display: block;
+	background-color: skyblue;
+	float: right;
+	border-radius: 15px;
+	border: 3px solid white;
+	color: darkblue;
+	font-size: 30px;
+	height: 40px;
+	width: 150px;
+	text-align: center;
+	margin-right: 20px;
+	line-height: 40px;
+	margin-top: 35px;
+	font-family: "黑体";
+}
+
+
+#header #header-content #nav #choose a:hover {
+	color: orange;
+	height: 45px;
+	line-height: 45px;
+	width: 170px;
+	text-align: center;
+	background-color: #a155f7;
+	border-color: yellow;
+	margin-bottom: 5px;
+	font-size: 35px;
+	font-family: "黑体";
+}
+
+#login {
+	width: 1400px;
+	height: 900px;
+	margin: 0 auto 0;
+	margin-top: 80px;
+}
+
+#login #login-content {
+	width: 450px;
+	height: 600px;
+	margin: 0 auto 0;
+	background: rgba(225, 225, 225, 0.8);
+	border-radius: 50px;
+}
+
+#login #login-content h1 {
+	height: 20px;
+	font-size: 70px;
+	width: 450px;
+	text-align: center;
+	font-family: dream;
+	padding-top: 20px;
+}
+
+#login #login-content form {
+	width: 350px;
+	height: 300px;
+	/* background-color: antiquewhite; */
+	margin-top: 80px;
+	margin-left: 50px;
+}
+
+#login #login-content form label {
+	font-size: 35px;
+	font-family: "楷体";
+	font-weight: 600;
+	margin-top: 10px;
+	display: block;
+}
+
+#login #login-content form input {
+	font-size: 30px;
+	width: 350px;
+	font-family: "楷体";
+	margin-top: 10px;
+}
+
+#login #login-content #btn {
+	font-size: 35px;
+	font-family: "楷体";
+	width: 100px;
+	color: blue;
+	text-align: center;
+	position: relative;
+	background-color: skyblue;
+	display: block;
+	margin: 15px auto 0;
+	font-weight: 600;
+
+}
+
+#login #login-content form p {
+	font-size: 25px;
+	margin-top: 10px;
+	font-family: "楷体";
+	text-align: center;
+
+}
+
+#login #login-content form a {
+	font-size: 30px;
+	margin-top: 10px;
+	font-weight: 600;
+	font-family: "楷体";
+	text-align: center;
+}
+
+#login #login-content #btn:hovor {
+	background-color: mediumpurple;
+	color: yellow;
+}
+
+#login #login-content #bottom {
+	position: relative;
+	height: 250px;
+	width: 450px;
+	bottom: 2px;
+}
+
+#login #login-content #bottom img {
+	height: 200px;
+	width: 450px;
+	bottom: 200px;
+}
