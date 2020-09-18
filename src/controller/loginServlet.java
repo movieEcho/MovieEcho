@@ -20,8 +20,7 @@ public class loginServlet extends HttpServlet {
         String uId=req.getParameter("userId");
         String password=req.getParameter("password");
         if(uId!=null&&password!=null){
-            int uId_int=Integer.parseInt(uId);
-            user user=UserService.findUserByUId(uId_int);
+            user user=UserService.findUserByUName(uId);
             if(user!=null){
                 if(user.getPassword().equals(password)){
                    session.setAttribute("user",user);
